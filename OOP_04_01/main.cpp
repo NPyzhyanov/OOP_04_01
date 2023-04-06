@@ -13,7 +13,7 @@ int main()
     
     if (data_read)
     {
-        write_output_data(p_addresses_amount, p_p_addresses);
+        write_output_data(*p_addresses_amount, p_p_addresses);
     }
     
     if (p_addresses_amount != nullptr)
